@@ -41,6 +41,8 @@
 									<th>Outil</th>
 									<th>Prix</th>
 									<th>Type</th>
+									<th>Date d'expiration</th>
+									
 									
 								</tr>
 							</thead>
@@ -87,6 +89,7 @@
 													<span class="badge bg-secondary">Inconnu</span>
 												</c:otherwise>
 											</c:choose></td>
+											<td> -- </td>
 
 										
 									</tr>

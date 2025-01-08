@@ -13,7 +13,7 @@ import beans.Abonnement;
 import beans.Parcelle;
 import dao.DaoCrud;
 
-@WebServlet(name = "abonnementServlet", value = "/abonnements")
+@WebServlet("/abonnements")
 public class AbonnementServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;

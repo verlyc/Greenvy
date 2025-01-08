@@ -36,6 +36,7 @@
 									
 									<th>Nom</th>
 									<th>Description</th>
+									<th>Date d'expiration</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -46,6 +47,7 @@
 										<td>${ item.tool.name } </td>
 										
 										<td>${ item.tool.description }</td>
+										<td>--</td>
 										
 									</tr>
 								</c:forEach>

@@ -15,7 +15,7 @@ import beans.UserAbonnement;
 import dao.DaoCrud;
 import helper.Utils;
 
-@WebServlet(name = "abonnementServlet", value = "/my-abonnements")
+@WebServlet(name = "MyabonnementServlet", value = "/my-abonnements")
 public class MyAbonnementServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
